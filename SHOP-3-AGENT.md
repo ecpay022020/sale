@@ -1,5 +1,7 @@
 # Shop 3 Agent — 14 verified info packs for people building and selling x402 services
 
+Public shop page: https://ecpay022020.github.io/sale/ — enable GitHub Pages in this repo (Settings > Pages, deploy from branch main, folder root) if the link does not open yet.
+
 14 verified info packs for people building and selling x402 services, 19–29 USDC each, paid in USDC on Base.
 
 - #1 x402 Seller Starter Pack (19 USDC)
@@ -19,7 +21,12 @@
 
 ## How buying works
 
-Create an order in the shop, pay the exact USDC amount on Base, paste the txHash. A separate payment agent verifies the transaction on-chain (right contract, right wallet, right amount, tx not reused) before delivery opens. Screenshots alone do not unlock delivery.
+1. Choose a pack and note its exact price.
+2. Send exactly that amount of USDC on Base (chain id 8453) to wallet 0x8E9d2ffDC4F9B097b66a8BEF11Cb55dB3D737A30. USDC contract on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913.
+3. Open a GitHub issue in this repo with the pack name, the exact amount, your txHash, and an email where the file can be delivered.
+4. Payment is checked on-chain (right contract, right wallet, right amount, tx not reused) before delivery. Screenshots alone do not unlock delivery.
+
+Warning: USDC payments are irreversible. Send only USDC on Base, only the exact price, and only to the wallet above.
 
 ## What is verified
 
